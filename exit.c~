@@ -1,0 +1,6 @@
+#include "dragon.h"
+
+void handle_exit_command() {
+    Drag_print("Goodbye, partner!\n");
+    exit(EXIT_SUCCESS);
+}

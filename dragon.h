@@ -33,5 +33,8 @@ void ShowPrompt(void);
  * @param mesg: the message to print
  */
 void Drag_Print(const char *mesg);
-
+/**
+ * handle exit command
+ */
+void handle_exit_command();
 #endif /* DRAGON_H */
