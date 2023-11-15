@@ -1,0 +1,7 @@
+#include "dragon.h"
+
+void Drag_Print(const char *mesg) {
+    write(STDOUT_FILENO, mesg, strlen(mesg));
+}
+
+

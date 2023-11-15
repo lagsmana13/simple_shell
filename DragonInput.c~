@@ -1,0 +1,15 @@
+#include "dragon.h"
+
+void re_command(char *command, size_t size) {
+    if (fgets(command, size, stdin) == NULL) {
+        if (feof(stdin)) {
+            Drag_Print("\n");
+            exit(EXIT_SUCCESS);
+        } else {
+            Drag_Print("Input reading error.\n");
+            exit(EXIT_FAILURE);
+        }
+    }
+    command[strcspn(command, "\n")] = '\0';
+}
+

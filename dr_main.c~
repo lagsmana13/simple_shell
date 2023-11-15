@@ -1,0 +1,15 @@
+#include "dragon.h"
+  /*
+   *main role
+   */
+
+int main(void) {
+  char command[130];
+
+  while (1) {
+    ShowPrompt();
+    re_command(command, sizeof(command));
+    ex_command(command);
+  }
+  return 0;
+}

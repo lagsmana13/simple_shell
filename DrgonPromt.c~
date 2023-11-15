@@ -1,0 +1,6 @@
+#include "dragon.h"
+
+void ShowPrompt(void) {
+   Drag_Print("draGon$ ");
+}
+

@@ -1,0 +1,17 @@
+#ifndef DRAGON_H
+#define DRAGON_H
+#include <string.h>
+#include <unistd.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+void re_command(char *command, size_t size);
+void ex_command(const char *command);
+void ShowPrompt(void);
+void Drag_Print(const char *mesg);
+
+
+
+
+#endif /* DRAGON_H */
