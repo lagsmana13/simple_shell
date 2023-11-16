@@ -8,33 +8,32 @@
 #include <stdlib.h>
 
 /**
- * Read a command from the user
- * 
- * @param command: the buffer to store the command
- * @param size: the size of the buffer
+ * Read a command from the user.
+ * @param command The buffer to store the command.
+ * @param size The size of the buffer.
  */
 void re_command(char *command, size_t size);
 
 /**
- * Execute the given command
- * 
- * @param command: the command to execute
+ * Execute the given command.
+ * @param command The command to execute.
  */
 void ex_command(const char *command);
 
 /**
- * Display the prompt symbol
+ * Display the prompt symbol.
  */
 void ShowPrompt(void);
 
 /**
- * Print a message using the dragon printer
- * 
- * @param mesg: the message to print
+ * Print a message using the dragon printer.
+ * @param mesg The message to print.
  */
 void Drag_Print(const char *mesg);
+
 /**
- * handle exit command
+ * Handle exit command.
  */
-void handle_exit_command();
+void handle_exit_command(void);
+
 #endif /* DRAGON_H */
