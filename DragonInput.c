@@ -1,4 +1,3 @@
-File Edit Options Buffers Tools C Help
 #include "dragon.h"
 
 void re_command(char *command, size_t size)

@@ -6,7 +6,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <stddef.h>
 /**
  * Read a command from the user.
  * @param command The buffer to store the command.
